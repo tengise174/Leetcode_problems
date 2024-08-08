@@ -54,7 +54,6 @@ var addBinary = function (a, b) {
     if (m === 1) result.unshift(1);
 
     return result.join("");
-    // return a;
 };
 
 console.log(addBinary("1", "111"));  // ==> "10101"
